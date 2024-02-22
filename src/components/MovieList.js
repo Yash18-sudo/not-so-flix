@@ -2,11 +2,11 @@ import React from "react";
 import MovieCard from "./MovieCard";
 
 const MovieList = ({ title, movies }) => {
-  console.log(movies);
-  const dummy = "/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg"
+  // console.log(movies);
+
   return (
     <div className="px-6 bg-transparent">
-      <h1 className="text-3xl text-white py-4">{title}</h1>
+      <h1 className="text:lg md:text-3xl text-white py-4">{title}</h1>
       <div className="flex overflow-x-scroll">
         <div className="flex">
           {movies?.map((movie) => (
